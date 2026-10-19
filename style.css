@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f5f9;
+    margin: 0;
+    padding: 40px 20px;
+    color: #111;
+} 
+.card {
+    background: #fff;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 32px 36px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+}
+.card.sempit { max-width: 640px; }
+h1 { margin: 0 0 8px; font-size: 28px; }
+.sub { margin: 0 0 24px; }
+.header { display: flex; justify-content: space-between; align-items: flex-start; }
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:hover { background: #1d4ed8; }
+.btn.abu { background: #6b7280; }
+.btn.abu:hover { background: #4b5563; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 16px 14px; text-align: left; border-bottom: 1px solid #e5e9f2; }
+th { background: #eef3fd; }
+.lulus { color: #16a34a; font-weight: bold; }
+.tidak-lulus { color: #dc2626; font-weight: bold; }
+
+.baris { background: #f8f9fc; padding: 16px 18px; margin-bottom: 14px; border-radius: 6px; }
+
+label { display: block; font-weight: bold; margin: 18px 0 8px; }
+input[type=text], textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5d9e2;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: inherit;
+}
+input[type=text]:focus, textarea:focus { outline: 2px solid #111; }
+textarea { min-height: 160px; resize: vertical; }
+.aksi { margin-top: 22px; display: flex; gap: 8px; }
+.error { color: #dc2626; margin-top: 16px; }
